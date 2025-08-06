@@ -38,5 +38,5 @@ Add loader and error handling
 
 Add location-based weather (use Geolocation API)
 
-Final Tips:- How to run this project Step1. cd.\weather
+Final Tips:- How to run this project Step1. cd.\weather\
 Step2. npm install Step3. npm run dev
