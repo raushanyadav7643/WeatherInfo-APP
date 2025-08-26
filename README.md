@@ -1,42 +1,21 @@
-A Weather Info App using React.js is a web application that displays current weather details (like temperature, humidity, wind, forecast, etc.) for a selected city by fetching real-time data from a weather API (like OpenWeatherMap).
+# Weather App using OpenWeatherMap API
+A weather app made using OpenWeatherMap API in Vanilla JavaScript.
 
-Key Features Search for weather by city name
-Display current temperature, weather condition, humidity, wind speed
+The app tells the current temperature and some additional information like Air Quality Index, Real Feel, Humidity, Highest Temperature, Lowest Temperature, Wind Speed, Wind Direction, Visibility, Pressure, Sunrise and Sunset.
 
-Optional: Air Quality, 5-day forecast, sunrise/sunset, etc.
+Visit Website --> [WeatherAppUsingOpenWeatherMapAPI]
 
-Responsive UI
+## Configuration
+To use the OpenWeatherMap API, you need to obtain an API key. Follow these steps to set up your API key:
 
-Background image or dynamic icons based on weather
+* Go to the OpenWeatherMap website: https://openweathermap.org/
+* Sign up for a free account or log in if you already have an account.
+* Once logged in, go to your profile and navigate to the "API Keys" section.
+* Generate a new API key and copy it.
+* In the project directory, locate the script.js file. Inside this file, you will find a constant called API_KEY. Replace the placeholder value 'YOUR_API_KEY' with your actual API key obtained from OpenWeatherMap.
 
-Tech Stack Frontend: React.js, HTML, CSS
-HTTP Client: Axios or Fetch API
+```
+const API_KEY = 'YOUR_API_KEY';
+```
 
-API Provider: OpenWeatherMap API (or any weather API)
-
-React Component Structure scss Copy Edit WeatherDashboard (Main Component) │ ├── Navbar (search bar + button) ├── MainWeather (city name, temp, icon) ├── TodayHighlights (humidity, wind, etc.) └── FiveDayForecast (optional forecast cards)
-
-How It Works (Flow) User Input: User types a city in the search bar and submits.
-
-API Call: App uses Axios/Fetch to get data from the weather API.
-
-State Update: React updates state with the response data.
-
-Component Render: UI displays weather data in components.
-
-Sample Code Overview 📂 App.js or WeatherDashboard.js 📂 Navbar.js 📂 MainWeather.js
-🌐 6. Weather API Used Use OpenWeatherMap API:
-
-Sign up & get an API key
-
-Use endpoint: https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY&units=metric
-
-Optional Enhancements Add icons based on weather (Clear, Clouds, Rain)
-Display 5-day forecast using forecast endpoint
-
-Add loader and error handling
-
-Add location-based weather (use Geolocation API)
-
-Final Tips:- How to run this project Step1. cd.\weather\
-Step2. npm install Step3. npm run dev
+## Screenshots
