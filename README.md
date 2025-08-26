@@ -1,9 +1,9 @@
-# Weather App 
+# WeatherInfo App 
 A weather app made using OpenWeatherMap API in HTML, JavaScript, React.
 
 The app tells the current temperature and some additional information like Air Quality Index, Real Feel, Humidity, Highest Temperature, Lowest Temperature, Wind Speed, Wind Direction, Visibility, Pressure, Sunrise and Sunset.
 
-Visit Website --> [Weather-App] (http://localhost:5174/weather-app)
+Visit Website --> [Weather-App] (http://localhost:5174/WeatherInfo-App)
 
 ## Configuration
 To use the OpenWeatherMap API, you need to obtain an API key. Follow these steps to set up your API key:
